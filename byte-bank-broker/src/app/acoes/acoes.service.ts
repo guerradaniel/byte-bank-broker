@@ -10,7 +10,7 @@ const API_URL = 'http://localhost:3000'
   providedIn: 'root'
 })
 export class AcoesService {
-
+  ç
   constructor(
     private http: HttpClient) { }
 
@@ -36,6 +36,5 @@ export class AcoesService {
     }
     return 0
   }
-
 
 }
