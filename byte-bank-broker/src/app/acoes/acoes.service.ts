@@ -15,7 +15,7 @@ export class AcoesService {
     private http: HttpClient) { }
 
   getAcoes() {
-    return this.http.get<any>(`${API_URL}/acoes`)
+    return this.http.get<AcoesAPI>(`${API_URL}/acoes`)
       .pipe(
         tap((valor) => console.log(valor)),
         pluck('payload'),
