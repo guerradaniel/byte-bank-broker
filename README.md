@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Open a terminal and run the `npm install` command to install the project's dependencies.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Open another terminal and navigate to the project's `api` folder. Run `npm start` for a back-end server. Navigate to `http://localhost:3000/`. The application will be reloaded automatically and the login and password information of authenticated users will be on the project console.
